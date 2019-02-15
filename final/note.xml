@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<note>
+<to>abc</to>
+<from>xyz</from>
+<body>hello</body>
+<subject>hi</subject>
+</note>

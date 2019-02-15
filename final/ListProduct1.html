@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GIZZLY STORE PRODUCT LIST</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+   <script>
+function myFunction(z) {
+	var y={"demo1","demo2","demo3"};
+    var x=document.getElementById("inputnum").value;
+        document.getElementById(y[z]).innerHTML =x;
+}
+</script>
+
+</head>
+<body>
+	<nav class="navbar navbar-default">
+    <div class="navbar-header">
+      <img src="images/h4.png" class="img1">
+	  </div>
+    <ul class="nav navbar-nav">
+      <li class="usr" >
+	  <form class="navbar-form navbar-inline" action="">
+  <div class="form-group form-inline has-feedback ">
+  <input type="text" class="form-control form-rounded" id="n" placeholder=" Search" style="background-color:white;">
+   <span class="glyphicon glyphicon-search form-control-feedback"></span>
+   </div>
+   </form>
+	  </li>
+    <li class="icon"><span class="glyphicon glyphicon-bell glyphicon-bell-align-left"></span></li> 
+	<li class="wel"><b>Welcome,John Doe<b></li>
+    </ul>
+	<button type="submit" class="btn btn-left form-rounded col-md-1 but" style="background:grey;color:black;">Logout</button>
+</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-3">
+			<div class="well im1">
+				<div class="jumbotron">
+				<p class="pro">PROFILE</p>
+				<p class="pro1">Edit</p>
+				</div>
+			<div class="well-sm im">
+			</br>
+			</div>
+			<h3 class="r3">M/S John Doe</h3>
+			<p style="color:lightgrey; margin-top:10px;margin-left:190px;"><span class="fa fa-star" ></span> 3.7</p>
+			<h3 class="r3">Contact</h3>
+			<p class="s3">978601XXXX</p>
+			<h3 class="r3">Address</h3>
+			<p class="s3" style="margin-left:100px;width:200px;">Lorem ipsum dolor sit arnet, consectetuer
+             adipiscing elit, set diam nunummy nibh<p>
+			 <button type="submit" class="btn form-rounded" style="background:lightgrey;color:white;margin-left:145px;margin-top:40px;">Contact Grizzly</button>
+			</div>
+		</div>
+		<div class="col-sm-8">
+		   <ul class="nav nav-pills nav-justified nav-style">
+           <li class="active" id="pro3"><a data-toggle="pill" href="#home" id="pro3">PRODUCTS</a></li>
+           <li><a data-toggle="pill" href="#home1"id="pro4"><b>INVENTORY</b></a></li>
+           <li><a data-toggle="pill" href="#" id="pro4">PROFILE</a></li>
+           </ul>
+		   <br>
+		   <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+     <nav class="navbar navbar-default nav2">
+	 <ul class="nav navbar-nav">
+		<li>
+		<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle form-rounded" style="color:grey;" type="button" data-toggle="dropdown" disabled>Choose Action
+		<span class="caret" style="color:grey;"></span></button>
+		<ul class="dropdown-menu">
+			<li><a href="#">HTML</a></li>
+			<li><a href="#">CSS</a></li>
+			<li><a href="#">JavaScript</a></li>
+		</ul>
+		</div>
+		</li>
+		<li class="search" >
+		<form class="navbar-form navbar-inline" action="">
+		<div class="form-group form-inline has-feedback ">
+		<input type="text" class="form-control form-rounded" id="search" placeholder=" Product Name/ID.." style="background-color:white;">
+		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+		</div>
+		</form>
+		</li>
+		<li>
+		<ul class="nav navbar-nav">
+		<li class="sor">
+		<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle form-rounded" style="color:grey;width:150px;text-align:left" type="button" data-toggle="dropdown">Sort by
+		<span class="caret" style="color:grey;float:right;margin-top:8px;"></span></button>
+		<ul class="dropdown-menu">
+			<li><a href="#">HTML</a></li>
+			<li><a href="#">CSS</a></li>
+			<li><a href="#">JavaScript</a></li>
+		</ul>
+		</div>
+		</li>
+		</ul>
+		<li class="but1">
+		<a href="AddProduct.html"><button type="submit" class="btn form-rounded" style="background:grey;color:black;width:150px; margin-top:-12px;">Add Product</button></a>
+		</li>
+		</ul>
+		</nav>
+		<div class="table-responsive">          
+  <table class="table">
+    <thead class="table1">
+      <tr>
+		<th width="1%" id="noborder"></th>
+        <th width="5%" height="5%" style="text-align:center;"> Product List</th>
+		<th width="5%" height="5%" style="text-align:center;"> ID</th>
+        <th width="5%"height="5%" style="text-align:center;"> Brand</th>
+        <th width="5%"height="5%" style="text-align:center;"> Category</th>
+        <th width="4%"height="5%" style="text-align:center;"> Rating</th>
+        <th width="8%" id="noborder1"></th>
+      </tr>
+    </thead>
+    <tbody>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Trimmer</td>
+		<td> TRX0098</td>
+        <td>Philips</td>
+        <td>Personal care</td>
+        <td style="color:lightgrey;">4.7</td>
+        <td>
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;"disabled>view</button>
+		<button type="submit" class="btn form-rounded l3" style="background:lightgrey;color:black;width:100px;"disabled>Remove</button>
+		</td>
+      </tr>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Shaver</td>
+		<td> BS6785</td>
+        <td>Braun</td>
+        <td>Personal care</td>
+        <td style="color:lightgrey;">4.8</td>
+        <td> 
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;"disabled>view</button>
+		<button type="submit" class="btn form-rounded l3" style="background:lightgrey;color:black;width:100px;"disabled>Remove</button>
+		</td>
+      </tr>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Macbook Pro</td>
+		<td> MAC4567</td>
+        <td>Apple</td>
+        <td>Laptop</td>
+        <td style="color:lightgrey;">4.9</td>
+        <td> 
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;"disabled>view</button>
+		<button type="submit" class="btn form-rounded l3" style="background:lightgrey;color:black;width:100px;"disabled>Remove</button>
+		</td>
+      </tr>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>iMac 27"</td>
+		<td> IMAC3452</td>
+        <td>Apple</td>
+        <td>Laptop</td>
+        <td style="color:lightgrey;">4.6</td>
+        <td style="color:lightgrey;"> 
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;"disabled>view</button>
+		<button type="submit" class="btn form-rounded l3" style="background:lightgrey;color:black;width:100px;"disabled>Remove</button>
+		</td>
+      </tr>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Micro Pens</td>
+		<td> SPM345</td>
+        <td>Sakura Pigma</td>
+        <td>Art Supplies</td>
+        <td style="color:lightgrey;">4.1</td>
+        <td>
+        <button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;"disabled>view</button>
+		<button type="submit" class="btn form-rounded l3" style="background:lightgrey;color:black;width:100px;"disabled>Remove</button>
+		</td>
+      </tr>
+	  <tr>
+	     <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Paint Markers</td>
+		<td> PMC4567</td>
+        <td>copic</td>
+        <td>Art Supplies</td>
+        <td style="color:lightgrey;">4.2</td>
+        <td> 
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;"disabled>view</button>
+		<button type="submit" class="btn form-rounded l3" style="background:lightgrey;color:black;width:100px;"disabled>Remove</button>
+		</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+	
+	</div>
+	
+	<div id="home1" class="tab-pane fade">
+	<nav class="navbar navbar-default nav2">
+	 <ul class="nav navbar-nav">
+		<li>
+		<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle form-rounded" style="color:grey;" type="button" data-toggle="dropdown" disabled>Choose Action
+		<span class="caret" style="color:grey;"></span></button>
+		<ul class="dropdown-menu">
+			<li><a href="#">HTML</a></li>
+			<li><a href="#">CSS</a></li>
+			<li><a href="#">JavaScript</a></li>
+		</ul>
+		</div>
+		</li>
+		<li class="search" >
+		<form class="navbar-form navbar-inline" action="">
+		<div class="form-group form-inline has-feedback ">
+		<input type="text" class="form-control form-rounded" id="search" placeholder=" Product Name/ID.." style="background-color:white;">
+		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+		</div>
+		</form>
+		</li>
+		<li>
+		<ul class="nav navbar-nav">
+		<li class="sor">
+		<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle form-rounded" style="color:grey;width:150px;text-align:left" type="button" data-toggle="dropdown">Sort by
+		<span class="caret" style="color:grey;float:right;margin-top:8px;"></span></button>
+		<ul class="dropdown-menu">
+			<li><a href="#">HTML</a></li>
+			<li><a href="#">CSS</a></li>
+			<li><a href="#">JavaScript</a></li>
+		</ul>
+		</div>
+		</li>
+		</ul>
+		</ul>
+		</nav>
+	<div class="table-responsive">          
+	<table class="table">
+		<thead class="table1">
+      <tr>
+		<th width="1%" id="noborder"></th>
+        <th width="5%" height="5%" style="text-align:center;"> Product List</th>
+		<th width="5%" height="5%" style="text-align:center;"> ID</th>
+        <th width="5%"height="5%" style="text-align:center;"> In Stock</th>
+        <th width="5%"height="5%" style="text-align:center;"> Req.</th>
+		<th width="5%"height="5%" style="text-align:center;"> Buffer</th>
+		<th width="5%"height="5%" style="text-align:center;"> Price/Item</th>
+        <th width="5%"height="5%" style="text-align:center;"> Pending</th>
+        <th width="4%"height="5%" style="text-align:center;"> Rating</th>
+        <th width="3%" id="noborder1"></th>
+      </tr>
+    </thead>
+    <tbody>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Trimmer</td>
+		<td> TRX0098</td>
+        <td style="background-color:#f2f2f2;"id="demo1">34</td>
+        <td style="background-color:#f2f2f2;">11</td>
+		<td>45</td>
+		<td>1,350.00</td>
+		<td style="color:lightgrey;">3</td>
+        <td style="color:lightgrey;">4.7</td>
+        <td>
+		<a href="#myModal" data-toggle="modal" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;margin-left:40px;">Manage</a>
+		<div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Your Feedback</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="inputName">Name</label>
+                            <input type="text" class="form-control" id="inputnum">
+                        </div>
+					</form>
+					<div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal" onclick="myFunction(1)">Send</button>
+                </div>
+				</form>
+            </div>
+        </div>
+		</div>
+		</div>     
+		</td>
+      </tr>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Shaver</td>
+		<td> BS6785</td>
+        <td id="demo2">23</td>
+        <td>0</td>
+		<td>10</td>
+		<td>4,700.00</td>
+		<td style="color:lightgrey;">1</td>
+        <td style="color:lightgrey;">4.8</td>
+        <td> 
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;margin-left:40px;"disabled>Manage</button>
+		</td>
+      </tr>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Macbook Pro</td>
+		<td> MAC4567</td>
+        <td id="demo3">15</td>
+        <td>0</td>
+		<td>5</td>
+		<td>1,53,000.00</td>
+		<td style="color:lightgrey;">1</td>
+        <td style="color:lightgrey;">4.9</td>
+        <td> 
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;margin-left:40px;"disabled>Manage</button>
+		</td>
+      </tr>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>iMac 27"</td>
+		<td> IMAC3452</td>
+        <td>12</td>
+        <td>0</td>
+		<td>5</td>
+		<td>97,000.00</td>
+		<td style="color:lightgrey;">0</td>
+        <td style="color:lightgrey;">4.6</td>
+        <td> 
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;margin-left:40px;"disabled>Manage</button>
+		</td>
+      </tr>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Micro Pens</td>
+		<td> SPM345</td>
+		<td style="background-color:#f2f2f2">60</td>
+        <td style="background-color:#f2f2f2">15</td>
+		<td>75</td>
+		<td>450.00</td>
+		<td style="color:lightgrey;">4</td>
+        <td style="color:lightgrey;">4.1</td>
+        <td>
+        <button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;margin-left:40px;"disabled>Manage</button>
+		</td>
+      </tr>
+	  <tr>
+	     <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Paint Markers</td>
+		<td> PMC4567</td>
+        <td style="background-color:#f2f2f2;">45</td>
+        <td style="background-color:#f2f2f2;">15</td>
+		<td>60</td>
+		<td>4,200.00</td>
+		<td style="color:lightgrey;">2</td>
+        <td style="color:lightgrey;">4.2</td>
+        <td> 
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;margin-left:40px;"disabled>Manage</button>
+		</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+	</div>
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>

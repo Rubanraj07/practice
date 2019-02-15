@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GIZZLY STORE PRODUCT LIST</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+    <div class="navbar-header">
+      <img src="images/h4.png" class="img1">
+	  </div>
+    <ul class="nav navbar-nav">
+      <li class="usr" >
+	  <form class="navbar-form navbar-inline" action="">
+  <div class="form-group form-inline has-feedback ">
+  <input type="text" class="form-control form-rounded" id="n" placeholder=" Search" style="background-color:white;">
+   <span class="glyphicon glyphicon-search form-control-feedback"></span>
+   </div>
+   </form>
+	  </li>
+    <li class="icon"><span class="glyphicon glyphicon-bell glyphicon-bell-align-left"></span></li> 
+	<li class="wel"><b>Welcome,Admin&lt;name&gt;...<b></li>
+    </ul>
+	<button type="submit" class="btn btn-left form-rounded col-md-1 but" style="background:grey;color:black;">Logout</button>
+</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-3">
+			<div class="well im1">
+				<div class="jumbotron">
+				<p class="pro">PROFILE</p>
+				</div>
+			<div class="well-sm im">
+			</br>
+			</div>
+			<h3 class="r3">Helen Cho</h3>   
+			<h3 class="r3">ID</h3>
+			<p class="s3">GRZLY17234</p>
+			<h3 class="r3">Designation</h3>
+			<p class="s3">Sr.Admin<p>
+			<h3 class="r3">Office</h3>
+			<p class="s3">NYC,NY,USA</p>
+			</div>
+		</div>
+		<div class="col-sm-8">
+		   <ul class="nav nav-pills nav-justified nav-style">
+           <li class="active" id="pro3"><a data-toggle="pill" href="#home" id="pro3">PRODUCTS</a></li>
+           <li><a data-toggle="pill" href="#"id="pro4"><b>VENDORS</b></a></li>
+           <li><a data-toggle="pill" href="#" id="pro4"></a></li>
+           </ul>
+		   <br>
+		   <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+     <nav class="navbar navbar-default nav2">
+	 <ul class="nav navbar-nav">
+		<li>
+		<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle form-rounded" style="color:grey;" type="button" data-toggle="dropdown" disabled>Choose Action
+		<span class="caret" style="color:grey;"></span></button>
+		<ul class="dropdown-menu">
+			<li><a href="#">HTML</a></li>
+			<li><a href="#">CSS</a></li>
+			<li><a href="#">JavaScript</a></li>
+		</ul>
+		</div>
+		</li>
+		<li class="search" >
+		<form class="navbar-form navbar-inline" action="">
+		<div class="form-group form-inline has-feedback ">
+		<input type="text" class="form-control form-rounded" id="search" placeholder=" Category name" style="background-color:white;">
+		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+		</div>
+		</form>
+		</li>
+		<li>
+		<ul class="nav navbar-nav">
+		<li class="sor">
+		<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle form-rounded" style="color:grey;width:150px;text-align:left" type="button" data-toggle="dropdown">Sort by
+		<span class="caret" style="color:grey;float:right;margin-top:8px;"></span></button>
+		<ul class="dropdown-menu">
+			<li><a href="#">HTML</a></li>
+			<li><a href="#">CSS</a></li>
+			<li><a href="#">JavaScript</a></li>
+		</ul>
+		</div>
+		</li>
+		</ul>
+		<li class="but1">
+		<a href="AddProduct.html"><button type="submit" class="btn form-rounded" style="background:grey;color:black;width:150px; margin-top:-12px;">Add Product</button></a>
+		</li>
+		</ul>
+		</nav>
+		<div class="table-responsive">          
+  <table class="table">
+    <thead class="table1">
+      <tr>
+		<th width="1%" id="noborder"></th>
+        <th width="5%" height="5%" style="text-align:center;"> Product List</th>
+        <th width="5%"height="5%" style="text-align:center;"> Brand</th>
+        <th width="5%"height="5%" style="text-align:center;"> Category</th>
+        <th width="4%"height="5%" style="text-align:center;"> Rating</th>
+        <th width="12%"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+	    <td id="noborder">
+		<label class="container1">
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label></td>
+        <td> Trimmer</td>
+        <td> Philips</td>
+        <td> Personal care</td>
+        <td style="color:lightgrey;"> 4.7</td>
+        <td>
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;" disabled>view</button>
+		<button type="submit" class="btn form-rounded l2" style="background:lightgrey;color:black;width:100px;"disabled>Block</button>
+		<button type="submit" class="btn form-rounded l3" style="background:lightgrey;color:black;width:100px;"disabled>Remove</button>
+		</td>
+      </tr>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Trimmer</td>
+        <td>Philips</td>
+        <td>Personal care</td>
+        <td style="color:lightgrey;">4.7</td>
+        <td>
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;"disabled>view</button>
+		<button type="submit" class="btn form-rounded l2" style="background:lightgrey;color:black;width:100px;"disabled>Block</button>
+		<button type="submit" class="btn form-rounded l3" style="background:lightgrey;color:black;width:100px;"disabled>Remove</button>
+		</td>
+      </tr>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Shaver</td>
+        <td>Braun</td>
+        <td>Personal care</td>
+        <td style="color:lightgrey;">4.8</td>
+        <td> 
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;"disabled>view</button>
+		<button type="submit" class="btn form-rounded l2" style="background:lightgrey;color:black;width:100px;"disabled>Block</button>
+		<button type="submit" class="btn form-rounded l3" style="background:lightgrey;color:black;width:100px;"disabled>Remove</button>
+		</td>
+      </tr>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox" checked="checked">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Macbook Pro</td>
+        <td>Apple</td>
+        <td>Laptop</td>
+        <td style="color:lightgrey;">4.9</td>
+        <td> 
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;"disabled>view</button>
+		<button type="submit" class="btn form-rounded l2" style="background:lightgrey;color:black;width:100px;"disabled>Block</button>
+		<button type="submit" class="btn form-rounded l3" style="background:lightgrey;color:black;width:100px;"disabled>Remove</button>
+		</td>
+      </tr>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>iMac 27"</td>
+        <td>Apple</td>
+        <td>Laptop</td>
+        <td style="color:lightgrey;">4.6</td>
+        <td style="color:lightgrey;"> 
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;"disabled>view</button>
+		<button type="submit" class="btn form-rounded l2" style="background:lightgrey;color:black;width:100px;"disabled>Block</button>
+		<button type="submit" class="btn form-rounded l3" style="background:lightgrey;color:black;width:100px;"disabled>Remove</button>
+		</td>
+      </tr>
+	  <tr>
+		 <td id="noborder">
+		<label class="container1">
+		<input type="checkbox">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Micro Pens</td>
+        <td>Sakura Pigma</td>
+        <td>Art Supplies</td>
+        <td style="color:lightgrey;">4.1</td>
+        <td>
+        <button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;"disabled>view</button>
+		<button type="submit" class="btn form-rounded l2" style="background:lightgrey;color:black;width:100px;"disabled>Block</button>
+		<button type="submit" class="btn form-rounded l3" style="background:lightgrey;color:black;width:100px;"disabled>Remove</button>
+		</td>
+      </tr>
+	  <tr>
+	     <td id="noborder">
+		<label class="container1">
+		<input type="checkbox" checked="checked">
+		<span class="checkmark"></span>
+		</label></td>
+        <td>Paint Markers</td>
+        <td>copic</td>
+        <td>Art Supplies</td>
+        <td style="color:lightgrey;">4.2</td>
+        <td> 
+		<button type="submit" class="btn form-rounded l1" style="background:lightgrey;color:black;width:100px;"disabled>view</button>
+		<button type="submit" class="btn form-rounded l2" style="background:lightgrey;color:black;width:100px;"disabled>Block</button>
+		<button type="submit" class="btn form-rounded l3" style="background:lightgrey;color:black;width:100px;"disabled>Remove</button>
+		</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+	</div>
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>
